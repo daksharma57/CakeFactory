@@ -1,0 +1,27 @@
+/* CSS recet */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS Variable */
+:root{
+    --navbar-height: 59px;
+}
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    margin: 3px 6px;
+    height: 60px;
+}
+/* Navigation Bar: List Styling */
+#navbar ul{
+    display: flex;
+}
